@@ -1,0 +1,79 @@
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+/* || GENERAL STYLES  */
+
+/* || UTILITY CLASSES */
+
+/* || BLOCKS */
+.calculator {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+}
+
+.screen {
+  height: 30%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.expression {
+  height: 50%;
+  width: 98%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  font-size: 3rem;
+}
+
+.result {
+  height: 50%;
+  width: 98%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  font-size: 3rem;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70%;
+}
+
+.number,
+.control,
+.operator {
+  width: 25%;
+  height: 20%;
+  font-size: 25px;
+  background-color: #000000;
+}
+
+.control,
+.operator,
+i {
+  color: #ff8f1f;
+}
+
+.zero {
+  flex-grow: 1;
+}
+
+.backspace {
+  padding-top: 3px;
+}
+
+/* || ELEMENTS */
+
+/* || MODIFIERS*/
